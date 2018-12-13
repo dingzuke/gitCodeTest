@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    .item {
+        background: url(./ri.png) no-repeat;
+        width: 400px;
+        height: 500px;
+        margin-top: 600px;
+        margin: 0 auto;
+    }
+    /* .item::after {
+        background: url(./err.png) no-repeat;
+        content: '';
+        display: none;
+    } */
+    .item:hover{
+        background: url(./err.png) no-repeat;
+        width: 400px;
+        height: 500px;
+        margin-top: 600px;
+        margin: 0 auto;
+    }
+    .img{
+        display: none;
+    }
+</style>
+<body>
+    <img src="./err.png" class="img">
+    <div class="item">
+        don`t hover me
+    </div>
+</body>
+</html>
